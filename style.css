@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+	
+#fixed {
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	color: white;
+	height: 60px;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+#fixed a {
+	background: black;
+	display: block;
+	padding: 20px;
+	text-decoration: none;
+	color: white;	
+}
+
+#c {
+	height: 450px;
+}
